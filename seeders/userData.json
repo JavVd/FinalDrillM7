@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mateo",
+    "lastName": "Díaz",
+    "email": "mateo.diaz@correo.com",
+    "createdAt": "2023-10-01T00:00:00Z",
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "name": "Santiago",
+    "lastName": "Mejías",
+    "email": "santiago.mejias@correo.com",
+    "createdAt": "2023-10-01T00:00:00Z",
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "name": "Lucas",
+    "lastName": "Rojas",
+    "email": "lucas.rojas@correo.com",
+    "createdAt": "2023-10-01T00:00:00Z",
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "name": "Facundo",
+    "lastName": "Fernandez",
+    "email": "facundo.fernandez@correo.com",
+    "createdAt": "2023-10-01T00:00:00Z",
+    "updatedAt": "2023-10-01T00:00:00Z"
+  }
+]

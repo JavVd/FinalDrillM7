@@ -1,0 +1,38 @@
+[
+  {
+    "UserId": 1, 
+    "BootcampId": 1, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "UserId": 2, 
+    "BootcampId": 1, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "UserId": 1, 
+    "BootcampId": 2, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "UserId": 1, 
+    "BootcampId": 3, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "UserId": 2, 
+    "BootcampId": 3, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "UserId": 3, 
+    "BootcampId": 3, 
+    "createdAt": "2023-10-01T00:00:00Z", 
+    "updatedAt": "2023-10-01T00:00:00Z"
+  }
+]

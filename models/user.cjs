@@ -10,15 +10,11 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
-      User.associate = function(models) {
-        User.belongsToMany(models.Bootcamp, {
-          through: 'UserBootcamp', // Tabla intermedia
-          foreignKey: 'UserId',
-          otherKey: 'BootcampId'
-        });
-      };
-      
+      User.belongsToMany(models.Bootcamp, {
+        through: 'UserBootcamps', // Tabla intermedia
+        foreignKey: 'UserId',
+        otherKey: 'BootcampId'
+      });
     }
   }
   User.init({

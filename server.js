@@ -1,11 +1,12 @@
 import express from 'express'
-import { UsersRouter } from './routers/index.js'
+import { UsersRouter, BootcampsRouter } from './routers/index.js'
 
-const PORT = process.env.PORT || 3000
 const app = express()
+const PORT = process.env.PORT || 3000
 
 app.use(express.json())
 
 app.use('/users', UsersRouter)
+app.use('/bootcamps', BootcampsRouter)
 
 app.listen(PORT, console.log(`Server is running on port ${PORT}`))

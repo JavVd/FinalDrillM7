@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "postgres",
-    "password": "Ns2012Jk-PG",
+    "password": "password",
     "database": "db_bootcamp_development",
     "host": "localhost",
     "dialect": "postgres"
